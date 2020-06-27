@@ -279,7 +279,6 @@ header form i
 footer
 {
     font-family: 'Karla', sans-serif;
-    font-weight: 400; 
 
     display: -moz-flex;
     display:  -ms-flex;
@@ -294,26 +293,9 @@ footer
     align-items: center;
 }
 
-footer
-{
-    display: block;
-}
-
-.footer h2
-{
-    font-size: 75%;
-    font-weight: normal;
-
-    margin-top: 16px; 
-
-    text-align: center;
-}
 @media only screen and (max-width: 767px)
 {
-    .footer h1
-    {
-        height: 90px;
-    }
+
 }
 
 .footer__pages
