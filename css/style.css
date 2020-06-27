@@ -553,9 +553,9 @@ footer
 
     padding: 8px 0;
 }
-.index__works__detail--tag a
+.index__works__detail--tag span
 {
-    line-height: 2; 
+    line-height: 2;
 
     margin-right: 8px;
 
@@ -567,7 +567,7 @@ footer
 }
 .index__works__detail--designer a
 {
-    text-decoration: underline; 
+    text-decoration: underline;
 
     color: #707070;
 }
