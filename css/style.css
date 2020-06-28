@@ -206,7 +206,7 @@ header nav h1 img
 }
 header nav .ttl a
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'karla', sans-serif;
     font-size: 130%;
     font-weight: bold; 
 
@@ -529,7 +529,7 @@ footer
 }
 .index__works__detail--tag
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'karla', sans-serif;
     font-size: 90%;
 
     padding: 8px 0;
@@ -554,7 +554,7 @@ footer
 }
 .index__works__detail--designer::before
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'karla', sans-serif;
     font-size: 80%; 
 
     padding-right: 8px;
