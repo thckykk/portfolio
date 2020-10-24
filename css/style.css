@@ -205,11 +205,11 @@ header nav h1 img
 }
 header nav .ttl a
 {
-    font-family: 'karla', sans-serif;
+    font-family: 'Marck Script', cursive;
     font-size: 130%;
     font-weight: bold; 
 
-    color: #222222;
+    color: yellow;
 }
 header nav .ttl span
 {
@@ -275,7 +275,9 @@ header form i
 
 footer
 {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Marck Script', cursive;
+    font-style: normal;
+    color: yellow;
 
     display: -moz-flex;
     display:  -ms-flex;
@@ -288,6 +290,8 @@ footer
 
     justify-content: center;
     align-items: center;
+
+    color: yellow;
 }
 
 @media only screen and (max-width: 767px)
@@ -328,8 +332,7 @@ footer
     display: -ms-flexbox;
     /*--- IE10 ---*/
 
-    height: 400px;
-    margin-bottom: 32px;
+    height: 280px;
 
     border-bottom: 1px solid #ECEFF1;
     background-image: url(https://images.unsplash.com/photo-1557683311-eac922347aa1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2030&q=80);
@@ -353,10 +356,10 @@ footer
 }
 #opening .heading h2
 {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Marck Script', cursive;
     font-size: 45px;
     font-style: normal;
-    color: #ffffff;
+    color: yellow;
     /*--- IE10 ---*/
     line-height: 1.2;
 
@@ -374,10 +377,10 @@ footer
 }
 #opening .heading p
 {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Marck Script', cursive;
     font-size: 16px;
     line-height: 1.5;
-    color: #ffffff;
+    color: yellow;
 }
 #opening .heading form
 {
@@ -462,7 +465,7 @@ footer
     max-width: 1440
     px;
     margin: 0 auto;
-    padding: 32px 0;
+    padding: 64px 0;
 }
 .index h1
 {
@@ -478,19 +481,31 @@ footer
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.index__works::before{
+    content: '';
+    display:block;
+    width: 22.5%;
+    order:1;
+  }
 .index__works::after
 {
     display: block;
 
-    width: 30%; 
+    width: 22.5%;
 
     content: '';
 }
 .index__works__detail
 {
-    width: 30%;
-    min-width: 30%;
+    width: 22.5%;
+    min-width: 22.5%;
     margin-bottom: 50px;
+}
+.index__works__detail a{
+    color: #222;
+}
+.index__works__detail a:hover{
+    color: yellow;
 }
 .index__works__detail__figure
 {
@@ -517,7 +532,9 @@ footer
 }
 .index__works__detail--ttl
 {
-    font-size: 130%;
+    font-size: 146%;
+    letter-spacing: -.4px;
+    font-family: 'Marck Script', cursive;
     font-weight: 400;
 
     padding-top: 24px;
@@ -526,12 +543,16 @@ footer
 {
     color: #222222;
 }
+
+.index__works__detail--ttl a:hover{
+    text-decoration: underline;
+}
 .index__works__detail--tag
 {
     font-family: 'karla', sans-serif;
     font-size: 90%;
 
-    padding: 8px 0;
+    padding: 4px 0 0;
 }
 .index__works__detail--tag span
 {
@@ -541,9 +562,14 @@ footer
 
     color: #999;
 }
+.index__works__detail--tag a{
+    color: #999;
+}
+
 .index__works__detail--tag a::before
 {
-    content: '#';
+    content: '>> ';
+    color: #999;
 }
 .index__works__detail--designer a
 {
